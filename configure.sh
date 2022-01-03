@@ -1,4 +1,6 @@
-cat <<EOF > /etc/v2ray/config.json 
+#!/bin/sh
+
+cat <<EOF > /config.json 
 {
     "log": {
         "loglevel": "none"
@@ -41,6 +43,6 @@ cat <<EOF > /etc/v2ray/config.json
 }
 EOF
 
-/usr/bin/v2ray -config /etc/v2ray/config.json
+/usr/bin/v2ray -config /config.json &
 
 
