@@ -3,11 +3,10 @@
         "loglevel": "none"
     },
     "inbounds": [{
-            "port": "$PORT",
             "protocol": "vmess",
             "settings": {
                 "clients": [{
-                    "id": "$UUID"
+                    "id": "${UUID}"
                 }]
             },
             "streamSettings": {
@@ -18,11 +17,10 @@
             }
         },
         {
-            "port": "$PORT",
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
-                    "id": "$UUID"
+                    "id": "${UUID}"
                 }],
                 "decryption": "none"
             },
