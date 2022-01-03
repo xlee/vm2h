@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add v2ray
+RUN apk add --no-cache --update v2ray
 
 ADD config.json /ect/v2ray/config.json
 
