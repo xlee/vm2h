@@ -8,6 +8,6 @@ ADD mkconf.sh /mkconf.sh
 RUN chmod +x /mkconf.sh
 RUN chmod +x /start.sh
 
-RUN mkconf.sh
+RUN /mkconf.sh
 
 CMD /start.sh

@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 cat <<EOF > /config.json 
 {
     "log": {
@@ -44,7 +42,3 @@ cat <<EOF > /config.json
     }]
 }
 EOF
-
-
-
-
