@@ -1,4 +1,4 @@
-cat <<EOF >/etc/v2ray/config.json 
+cat <<EOF > /etc/v2ray/config.json 
 {
     "log": {
         "loglevel": "none"
