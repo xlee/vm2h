@@ -23,7 +23,7 @@ cat <<EOF > /config.json
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
-                    "id": "{$UUID}",
+                    "id": "{$UUID}"
                 }],
                 "decryption": "none"
             },

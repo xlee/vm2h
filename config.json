@@ -20,14 +20,14 @@
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
-                    "id": "${UUID}"
+                    "id": "{$UUID}"
                 }],
                 "decryption": "none"
             },
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/app"
+                    "path": "/vless"
                 }
             }
         }
