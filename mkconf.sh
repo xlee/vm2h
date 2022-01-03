@@ -19,22 +19,6 @@ cat <<EOF > /config.json
                     "path": "/app"
                 }
             }
-        },
-        {
-            "port": "$PORT",
-            "protocol": "VLESS",
-            "settings": {
-                "clients": [{
-                    "id": "$UUID"
-                }],
-                "decryption": "none"
-            },
-            "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                    "path": "/vless"
-                }
-            }
         }
     ],
     "outbounds": [{
