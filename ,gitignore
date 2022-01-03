@@ -1,0 +1,10 @@
+# Node build artifacts
+
+
+# Local development
+*.dockerignore
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
