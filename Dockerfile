@@ -2,8 +2,8 @@ FROM alpine:latest
 
 RUN apk add --no-cache --update v2ray
 
-ADD config.sh /tmp/config.sh
-RUN chmod +x /tmp/config.sh
+ADD configure.sh /configure.sh
+RUN chmod +x /configure.sh
 
-CMD /tmp/config.sh
- 
+CMD /configure.sh
+
