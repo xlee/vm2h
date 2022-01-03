@@ -9,7 +9,7 @@ cat <<EOF > /config.json
             "protocol": "vmess",
             "settings": {
                 "clients": [{
-                    "id": "$UUID"
+                    "id": "${UUID}"
                 }]
             },
             "streamSettings": {
@@ -23,7 +23,7 @@ cat <<EOF > /config.json
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
-                    "id": "$UUID",
+                    "id": "{$UUID}",
                 }],
                 "decryption": "none"
             },
