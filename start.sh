@@ -15,7 +15,7 @@ cat <<EOF > /config.json
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/app"
                 }
             }
         },
