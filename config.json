@@ -22,8 +22,7 @@
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
-                    "id": "$UUID",
-                    "alterId": 0
+                    "id": "$UUID"
                 }],
                 "decryption": "none"
             },
