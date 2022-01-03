@@ -1,0 +1,1 @@
+FROM mysteriumnetwork/mysterium-node:latest
