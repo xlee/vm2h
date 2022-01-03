@@ -6,7 +6,6 @@ cat <<EOF > /config.json
         "loglevel": "none"
     },
     "inbounds": [{
-            "port": "$PORT",
             "protocol": "vmess",
             "settings": {
                 "clients": [{
@@ -21,7 +20,6 @@ cat <<EOF > /config.json
             }
         },
         {
-            "port": "$PORT",
             "protocol": "VLESS",
             "settings": {
                 "clients": [{
